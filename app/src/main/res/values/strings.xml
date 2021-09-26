@@ -1,0 +1,14 @@
+<resources>
+    <array name="menuppal">
+        <item>Pantalla1</item>
+        <item>Pantalla2</item>
+        <item>Pantalla3</item>
+        <item>Pantalla4</item>
+        <item>Pantalla5</item>
+        <item>Pantalla6</item>
+        <item>Pantalla7</item>
+        <item>Pantalla8</item>
+        <item>Salir</item>
+    </array>
+    <string name="app_name">LADM_U1_PRACTICA1</string>
+</resources>

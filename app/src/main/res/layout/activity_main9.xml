@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@color/blancobajo"
+    tools:context=".MainActivity9">
+
+    <TableRow android:padding="10dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/txtPickup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pick Up"
+            android:textAlignment="center"
+            android:textColor="@color/gris"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtbeach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="beach"
+            android:textAlignment="center"
+            android:textColor="@color/gris"
+            android:textSize="40sp" />
+    </TableRow>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="300dp"
+                    android:background="@drawable/islacoral"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Isla Coral"
+                    android:textColor="@color/grismedio"
+                    android:textAlignment="center"
+                    android:textSize="25sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="266dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/guayabitosballenas"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/box5"
+                    android:text="Rincon de Guayabitos"
+                    android:textColor="@color/grismedio"
+                    android:textSize="23sp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="300dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/compostela"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Compostela"
+                    android:textColor="@color/grismedio"
+                    android:textAlignment="center"
+                    android:textSize="25sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="300dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/sanblas"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="San Blas"
+                    android:textColor="@color/grismedio"
+                    android:textAlignment="center"
+                    android:textSize="25sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="300dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/islamexcaltitan"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Mexcaltitan"
+                    android:textColor="@color/grismedio"
+                    android:textAlignment="center"
+                    android:textSize="25sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="300dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/latovara"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="La Tovara"
+                    android:textColor="@color/grismedio"
+                    android:textAlignment="center"
+                    android:textSize="25sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="300dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/samao"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="SAMAO"
+                    android:textColor="@color/grismedio"
+                    android:textAlignment="center"
+                    android:textSize="25sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TableRow android:padding="5dp"
+        android:layout_marginBottom="2dp">
+        <TextView
+            android:text="$460"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@color/gris"
+            />
+
+        <TextView
+            android:text="3d 20h"
+            android:textSize="20sp"
+            android:textColor="@color/gris"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:text="35min"
+            android:textSize="20sp"
+            android:textColor="@color/gris"
+            android:layout_marginLeft="45dp"
+            />
+    </TableRow>
+
+    <TableLayout android:padding="10dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:text="Whale watching in Rincon de Guayabitos is a one of the most popular things to do while vacationing in Nayarit Mexico."
+            android:textSize="15sp"
+            android:textColor="@color/grisbajito"
+            />
+    </TableLayout>
+
+    <TableRow
+        android:background="@color/rojoopaco1"
+        android:padding="10dp">
+
+        <ImageView
+            android:background="@drawable/box6"
+            android:padding="30dp"
+            android:src="@drawable/iconoimagen"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:src="@drawable/iconocoche"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/iconomensaje"
+            android:layout_weight="1"/>
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/containedmermaid"
+    android:padding="10dp"
+    tools:context=".MainActivity4">
+
+
+    <TextView
+        android:id="@+id/temporizador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:background="#94184545"
+        android:text="00:08/03:34"
+        android:textColor="#E21C1C1C"
+        android:textSize="60sp" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="180dp"
+        android:layout_toEndOf="@id/temporizador"
+        android:background="#DD93BA4C"
+        android:id="@+id/placeholder"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiempo Transcurrido : Tiempo Total"
+        android:layout_below="@id/temporizador"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FAF3DC"
+        android:id="@+id/timestamps"
+        />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/pauseicon"
+        android:layout_below="@id/timestamps"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/iconopausa"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pausar"
+        android:layout_below="@id/iconopausa"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/backbutton"
+        android:layout_below="@id/timestamps"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/iconoreinicio"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reiniciar"
+        android:layout_below="@id/iconoreinicio"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:layout_marginLeft="42dp"
+        android:id="@+id/textreiniciar"
+        />
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/next"
+        android:layout_below="@id/timestamps"
+        android:layout_toEndOf="@id/iconopausa"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terminar"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        android:layout_toEndOf="@id/textreiniciar"
+        android:layout_below="@+id/iconopausa"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="150dp"
+        />
+
+</RelativeLayout>

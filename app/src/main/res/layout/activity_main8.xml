@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondopguayabitos"
+    tools:context=".MainActivity8">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:paddingLeft="90dp"
+        android:layout_marginBottom="150dp"
+        android:src="@drawable/iconolupa"
+        android:id="@+id/imagenlupa"
+        />
+
+    <TextView
+        android:id="@+id/txtPickup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagenlupa"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="180dp"
+        android:text="Pick Up"
+        android:textAlignment="center"
+        android:textColor="@color/gris"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtbeach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagenlupa"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="180dp"
+        android:layout_toEndOf="@id/txtPickup"
+        android:paddingRight="20dp"
+        android:text="beach"
+        android:textAlignment="center"
+        android:textColor="@color/gris"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/txtdescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPickup"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:text="Our adventures are as individual as the people who take them, whith destinations, themes and experiences adventures."
+        android:textColor="@color/grismedio"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/txtdescripcion"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/box"
+        android:gravity="top|center"
+        android:paddingTop="20dp"
+        android:text="Jul"
+        android:textColor="@color/grismedio"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/fecha1"/>
+
+    <TextView
+        android:id="@+id/fecha2"
+        android:layout_width="95dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/txtdescripcion"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/fecha1"
+        android:background="@drawable/box2"
+        android:gravity="top|center"
+        android:paddingTop="20dp"
+        android:text="Jul"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/puntospciones"
+        android:layout_width="95dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/txtdescripcion"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@id/fecha2"
+        android:background="@drawable/box3"
+        android:gravity="bottom|center"
+        android:paddingBottom="30dp"
+        android:text="..."
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="600dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:paddingTop="20dp"
+            android:text="18"
+            android:textColor="@color/grismedio"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:id="@+id/num1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/num1"
+            android:paddingTop="20dp"
+            android:layout_marginLeft="60dp"
+            android:text="30"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
